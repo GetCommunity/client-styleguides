@@ -1,0 +1,8 @@
+/* Gladiola */
+@font-face {
+    font-family: 'Gladiola';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Gladiola.otf') format('opentype'),
+         url('Gladiola.ttf') format('truetype');
+}

@@ -1,0 +1,57 @@
+{
+  "name": "@getcommunity/client-styleguides",
+  "description": "A collection of reusable styles for GetCommunity client projects.",
+  "version": "0.0.7",
+  "author": "@GetCommunity",
+  "contributors": [],
+  "devDependencies": {
+    "@getcommunity/config-eslint": "workspace:*",
+    "@getcommunity/config-prettier": "workspace:*",
+    "@getcommunity/config-typescript": "workspace:*",
+    "solid-devtools": "0.30.1",
+    "solid-js": "^1.8.18",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "license": "ISC",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "peerDependencies": {
+    "tailwindcss": "^3.4.6"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getcommunity/client-styleguides.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev": "tsup --watch",
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,md,mdx}\"",
+    "preview": "vite serve dev",
+    "typecheck": "tsc --noEmit --jsx preserve ./src/**/*"
+  },
+  "sideEffects": false,
+  "source": "./src/index.ts",
+  "type": "module",
+  "types": "./dist/index.d.ts"
+}

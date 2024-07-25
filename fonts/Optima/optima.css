@@ -1,0 +1,31 @@
+/* Optima Bold */
+@font-face {
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 700;
+    src: url('OptimaLTStd-Bold.otf') format('opentype');
+}
+
+/* Optima Bold Italic */
+@font-face {
+    font-family: 'Optima';
+    font-style: italic;
+    font-weight: 700;
+    src: url('OptimaLTStd-BoldItalic.otf') format('opentype');
+}
+
+/* Optima Regular */
+@font-face {
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    src: url('OptimaLTStd.otf') format('opentype');
+}
+
+/* Optima Italic */
+@font-face {
+    font-family: 'Optima';
+    font-style: italic;
+    font-weight: 400;
+    src: url('OptimaLTStd-Italic.otf') format('opentype');
+}
