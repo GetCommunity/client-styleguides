@@ -22,7 +22,8 @@
         "default": "./dist/index.js"
       },
       "require": "./dist/index.js"
-    }
+    },
+    "./fonts": "./fonts/**/*"
   },
   "files": [
     "dist"
