@@ -1,7 +1,7 @@
 {
   "name": "@getcommunity/client-styleguides",
   "description": "A collection of reusable styles for GetCommunity client projects.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "@GetCommunity",
   "contributors": [],
   "devDependencies": {
