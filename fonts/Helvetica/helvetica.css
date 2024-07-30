@@ -1,31 +1,31 @@
 /* Helvetica Bold */
 @font-face {
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 700;
-    src: url('Helvetica-Bold.ttf') format('truetype');
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Helvetica-Bold.ttf') format('truetype');
 }
 
 /* Helvetica Bold Italic */
 @font-face {
-    font-family: 'Helvetica';
-    font-style: italic;
-    font-weight: 700;
-    src: url('Helvetica-BoldOblique.ttf') format('truetype');
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 700;
+  src: url('Helvetica-BoldOblique.ttf') format('truetype');
 }
 
 /* Helvetica Regular */
 @font-face {
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 400;
-    src: url('Helvetica.ttf') format('truetype');
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Helvetica.ttf') format('truetype');
 }
 
 /* Helvetica Italic */
 @font-face {
-    font-family: 'Helvetica';
-    font-style: italic;
-    font-weight: 400;
-    src: url('Helvetica-Oblique.ttf') format('truetype');
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 400;
+  src: url('Helvetica-Oblique.ttf') format('truetype');
 }

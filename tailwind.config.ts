@@ -1,6 +1,6 @@
-const {
+import {
   ClientStylesBIASC,
-  ClientStyles,
+  ClientStylesBrandywine,
   ClientStylesGetCommunity,
   ClientStylesOlsonhomes,
   ClientStylesPacificcommunities,
@@ -10,9 +10,8 @@ const {
   ClientStylesTrumark,
   ClientStylesVandaele,
   ClientStylesWoodbridgePacificGroup,
-} = require('@getcommunity/client-styleguides');
+} from '@getcommunity/client-styleguides';
 
-/** @type {import('tailwindcss').Config} */
 export default {
   content: ['./dev/*.html', './dev/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -20,7 +19,7 @@ export default {
   },
   plugins: [
     ClientStylesBIASC,
-    ClientStyles,
+    ClientStylesBrandywine,
     ClientStylesGetCommunity,
     ClientStylesOlsonhomes,
     ClientStylesPacificcommunities,

@@ -2,7 +2,7 @@ import plugin from 'tailwindcss/plugin';
 
 const fontFamily = {
   'biasc-primary': ['"Proxima Nova"', 'sans-serif'],
-  'biasc-secondary': ['Oswald', 'sans-serif'],
+  'biasc-secondary': ['Oswald', 'serif'],
 };
 
 const colors = {

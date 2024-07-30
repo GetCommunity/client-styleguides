@@ -22,8 +22,7 @@
         "default": "./dist/index.js"
       },
       "require": "./dist/index.js"
-    },
-    "./fonts": "./dist/fonts/**/*"
+    }
   },
   "files": [
     "dist"
@@ -44,7 +43,7 @@
     "url": "git+https://github.com/getcommunity/client-styleguides.git"
   },
   "scripts": {
-    "build": "tsup && cp -r ./fonts ./dist",
+    "build": "tsup",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "dev": "tsup --watch",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,md,mdx}\"",
@@ -54,5 +53,13 @@
   "sideEffects": false,
   "source": "./src/index.ts",
   "type": "module",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*/index.d.ts",
+        "./dist/index.d.ts"
+      ]
+    }
+  }
 }

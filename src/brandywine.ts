@@ -2,7 +2,7 @@ import plugin from 'tailwindcss/plugin';
 
 const fontFamily = {
   'brandywine-primary': ['"Proxima Nova"', 'san-serif'],
-  'brandywine-secondary': ['Oswald', 'san-serif'],
+  'brandywine-secondary': ['Oswald', 'serif'],
 };
 
 const colors = {

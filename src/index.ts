@@ -1,5 +1,5 @@
 export { default as ClientStylesBIASC } from './biasc.js';
-export { default as ClientStyles } from './brandywine.js';
+export { default as ClientStylesBrandywine } from './brandywine.js';
 export { default as ClientStylesGetCommunity } from './getcommunity.js';
 export { default as ClientStylesOlsonhomes } from './olsonhomes.js';
 export { default as ClientStylesPacificcommunities } from './pacificcommunities.js';

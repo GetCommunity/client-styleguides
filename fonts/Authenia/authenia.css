@@ -1,8 +1,9 @@
 /* Authenia */
 @font-face {
-    font-family: 'Authenia';
-    font-style: normal;
-    font-weight: 400;
-    src: url('Authenia.otf') format('opentype'),
-         url('Authenia.ttf') format('truetype');
+  font-family: 'Authenia';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('Authenia.otf') format('opentype'),
+    url('Authenia.ttf') format('truetype');
 }
