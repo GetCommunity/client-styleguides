@@ -6,9 +6,9 @@ const fontFamily = {
 };
 
 const colors = {
-  'biasc-blue': '#003C7C',
-  'biasc-gray': '#BAD40F',
-  'biasc-gold': '#F6A81C',
+  'biasc-blue': '#07506E',
+  'biasc-gray': '#7F7F7F',
+  'biasc-gold': '#CC9933',
 };
 
 export default plugin(function () {}, {

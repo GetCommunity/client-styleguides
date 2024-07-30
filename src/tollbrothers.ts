@@ -6,13 +6,13 @@ const fontFamily = {
 };
 
 const colors = {
-  'tollbrothers-primary-blue-dark': '#0C223F',
-  'tollbrothers-primary-blue-light': '#004876',
+  'tollbrothers-primary-blue-dark': '#0C2240',
   'tollbrothers-primary-white': '#FFFFFF',
   'tollbrothers-primary-tan': '#E5E1DB',
-  'tollbrothers-accent-blue': '#0070CD',
-  'tollbrothers-accent-tan': '#696057',
-  'tollbrothers-accent-magenta': '#E5E1DB',
+  'tollbrothers-primary-blue-light': '#004876',
+  'tollbrothers-accent-blue': '#0070CC',
+  'tollbrothers-accent-tan': '#696056',
+  'tollbrothers-accent-magenta': '#A31F34',
 };
 
 export default plugin(function () {}, {
