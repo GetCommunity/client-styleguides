@@ -46,9 +46,9 @@
     "build": "tsup",
     "dev:watch": "tsup --watch",
     "dev:preview": "vite serve dev",
-    "lint": "eslint ./src",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,md,mdx}\"",
+    "lint": "eslint ./src",
     "typecheck": "tsc --noEmit --jsx preserve ./src/**/*"
   },
   "sideEffects": false,
