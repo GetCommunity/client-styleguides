@@ -4,6 +4,9 @@
   "version": "0.0.9",
   "author": "@GetCommunity",
   "contributors": [],
+  "dependencies": {
+    "tailwindcss": "^3.4.6"
+  },
   "devDependencies": {
     "@getcommunity/config-eslint": "workspace:*",
     "@getcommunity/config-prettier": "workspace:*",
@@ -31,9 +34,6 @@
   "license": "ISC",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
-  "peerDependencies": {
-    "tailwindcss": "^3.4.6"
-  },
   "private": false,
   "publishConfig": {
     "access": "public"

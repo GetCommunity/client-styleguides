@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin';
+import plugin from 'tailwindcss/plugin.js';
 
 const fontFamily = {
   'biasc-primary': ['"Proxima Nova"', 'sans-serif'],

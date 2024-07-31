@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin';
+import plugin from 'tailwindcss/plugin.js';
 
 const fontFamily = {
   'wpg-primary': ['Helvetica', 'sans-serif'],

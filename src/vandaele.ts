@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin';
+import plugin from 'tailwindcss/plugin.js';
 
 const fontFamily = {
   'vandaele-primary': ['Gotham', 'sans-serif'],

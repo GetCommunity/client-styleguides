@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin';
+import plugin from 'tailwindcss/plugin.js';
 
 const fontFamily = {
   'brandywine-primary': ['"Proxima Nova"', 'san-serif'],

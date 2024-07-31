@@ -1,4 +1,4 @@
-import plugin from 'tailwindcss/plugin';
+import plugin from 'tailwindcss/plugin.js';
 
 const fontFamily = {
   'gc-primary': ['"Noto Sans"', 'Helvetica', 'Verdana', 'sans-serif'],
