@@ -1,6 +1,7 @@
 import eslint from '@eslint/js';
 import gcLinter from '@getcommunity/config-eslint/library';
 import { resolve } from 'path';
+import process from 'process';
 import tseslint from 'typescript-eslint';
 
 const tsProject = resolve(process.cwd(), 'tsconfig.json');
