@@ -1,5 +1,11 @@
 # @getcommunity/client-styleguides
 
+## 0.0.11
+
+### Patch Changes
+
+- updated config
+
 ## 0.0.10
 
 ### Patch Changes
