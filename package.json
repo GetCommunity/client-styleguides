@@ -40,15 +40,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/getcommunity/client-styleguides.git"
-  },
+  "repository": "getcommunity/client-styleguides.git",
   "scripts": {
     "build": "tsup",
-    "dev:watch": "tsup --watch",
-    "dev:preview": "vite serve dev",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev:preview": "vite serve dev",
+    "dev:watch": "tsup --watch",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,md,mdx}\"",
     "lint": "eslint ./src",
     "typecheck": "tsc --noEmit --jsx preserve ./src/**/*"
