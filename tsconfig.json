@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@getcommunity/config-typescript/ts-lib.json",
-  "include": ["./src/**/*", "eslint.config.mjs"],
+  "include": ["./src/**/*", "eslint.config.mjs", "vite.config.ts"],
   "exclude": ["dist", "node_modules", "dev"]
 }
