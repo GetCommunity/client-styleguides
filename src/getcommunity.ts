@@ -6,6 +6,7 @@ const fontFamily = {
 
 const colors = {
   'getcommunity-red': '#E16740',
+  'getcommunity-pink': '#E16740',
   'getcommunity-orange': '#EF9E27',
   'getcommunity-yellow': '#FED041',
   'getcommunity-green': '#8E9A39',
