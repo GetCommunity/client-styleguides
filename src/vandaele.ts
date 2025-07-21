@@ -1,25 +1,25 @@
-import plugin from 'tailwindcss/plugin.js';
+import plugin from "tailwindcss/plugin.js"
 
 const fontFamily = {
-  'vandaele-primary': ['Gotham', 'sans-serif'],
-};
+  "vandaele-primary": ["Gotham", "sans-serif"]
+}
 
 const colors = {
-  'vandaele-primary-green': '#91A01D',
-  'vandaele-primary-gray': '#455565',
-  'vandaele-accent-green-dark': '#ADB857',
-  'vandaele-accent-green-mid': '#C7CF8F',
-  'vandaele-accent-green-light': '#E3E8C7',
-  'vandaele-accent-gray-dark': '#6B737D',
-  'vandaele-accent-gray-mid': '#9EA3A6',
-  'vandaele-accent-gray-light': '#D1D1D4',
-};
+  "vandaele-primary-green": "#91A01D",
+  "vandaele-primary-gray": "#455565",
+  "vandaele-accent-green-dark": "#ADB857",
+  "vandaele-accent-green-mid": "#C7CF8F",
+  "vandaele-accent-green-light": "#E3E8C7",
+  "vandaele-accent-gray-dark": "#6B737D",
+  "vandaele-accent-gray-mid": "#9EA3A6",
+  "vandaele-accent-gray-light": "#D1D1D4"
+}
 
 export default plugin(function () {}, {
   theme: {
     extend: {
       colors,
-      fontFamily,
-    },
-  },
-});
+      fontFamily
+    }
+  }
+})
