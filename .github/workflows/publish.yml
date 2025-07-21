@@ -22,21 +22,24 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Setup Node.js & Auth
         uses: actions/setup-node@v3
         with:
-          node-version: '22'
-          registry-url: 'https://registry.npmjs.org'
-          scope: '@joeygrable94'
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+          scope: "@joeygrable94"
           always-auth: true
+
+      - name: Install PNPM
+        run: npm install -g pnpm
 
       - name: Install & Build
         run: |
-          npm ci
-          npm run build
+          pnpm install
+          pnpm run build
 
       - name: Bump patch version
         run: |
