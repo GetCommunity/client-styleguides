@@ -10,7 +10,7 @@
     "tailwindcss": "^3.4.15"
   },
   "devDependencies": {
-    "@getcommunity/config-eslint": "^0.0.17",
+    "@getcommunity/config-eslint": "^0.0.18",
     "@getcommunity/config-prettier": "^0.0.12",
     "@getcommunity/config-typescript": "^0.0.12",
     "@types/node": "^22.15.19",

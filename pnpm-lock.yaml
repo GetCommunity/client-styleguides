@@ -13,8 +13,8 @@ importers:
         version: 3.4.17
     devDependencies:
       '@getcommunity/config-eslint':
-        specifier: ^0.0.17
-        version: 0.0.17(@eslint/eslintrc@3.3.1)(@eslint/js@9.31.0)(@types/node@22.16.5)(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-solid@0.14.5(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.17))(eslint@9.31.0(jiti@1.21.7))(jiti@1.21.7)(postcss@8.5.6)(yaml@2.8.0)
+        specifier: ^0.0.18
+        version: 0.0.18(@eslint/eslintrc@3.3.1)(@eslint/js@9.31.0)(@types/node@22.16.5)(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-solid@0.14.5(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.17))(eslint@9.31.0(jiti@1.21.7))(jiti@1.21.7)(postcss@8.5.6)(yaml@2.8.0)
       '@getcommunity/config-prettier':
         specifier: ^0.0.12
         version: 0.0.12(prettier-plugin-organize-imports@4.3.0(prettier@3.6.2)(typescript@5.8.3))(prettier-plugin-tailwindcss@0.7.2(prettier-plugin-organize-imports@4.3.0(prettier@3.6.2)(typescript@5.8.3))(prettier@3.6.2))(prettier@3.6.2)
@@ -406,8 +406,8 @@ packages:
     resolution: {integrity: sha512-Z5kJ+wU3oA7MMIqVR9tyZRtjYPr4OC004Q4Rw7pgOKUOKkJfZ3O24nz3WYfGRpMDNmcOi3TwQOmgm7B7Tpii0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@getcommunity/config-eslint@0.0.17':
-    resolution: {integrity: sha512-Bw9SDKyTnhn5PapBRZNccdxncbquZpXmcbScGK3/+EFQqH4XyQxg7NUHqDwJsni2tdKmBomzyLZOkbDb6LSOmg==}
+  '@getcommunity/config-eslint@0.0.18':
+    resolution: {integrity: sha512-Mypawg+aV1oq5lGNNyWB/zPdljSz2jJmf1DjXtkgTmuPiAWCQYNIZ+WU6+pl9CkK5I4EqB3em6gDvMBQ/gae4A==}
     peerDependencies:
       '@eslint/eslintrc': ^3.3.1
       '@eslint/js': ^9.26.0
@@ -1842,7 +1842,7 @@ snapshots:
       '@eslint/core': 0.15.2
       levn: 0.4.1
 
-  '@getcommunity/config-eslint@0.0.17(@eslint/eslintrc@3.3.1)(@eslint/js@9.31.0)(@types/node@22.16.5)(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-solid@0.14.5(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.17))(eslint@9.31.0(jiti@1.21.7))(jiti@1.21.7)(postcss@8.5.6)(yaml@2.8.0)':
+  '@getcommunity/config-eslint@0.0.18(@eslint/eslintrc@3.3.1)(@eslint/js@9.31.0)(@types/node@22.16.5)(@typescript-eslint/eslint-plugin@8.48.1(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(@typescript-eslint/parser@8.48.1(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-solid@0.14.5(eslint@9.31.0(jiti@1.21.7))(typescript@5.8.3))(eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.17))(eslint@9.31.0(jiti@1.21.7))(jiti@1.21.7)(postcss@8.5.6)(yaml@2.8.0)':
     dependencies:
       '@eslint/eslintrc': 3.3.1
       '@eslint/js': 9.31.0
