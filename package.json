@@ -1,26 +1,26 @@
 {
   "name": "@getcommunity/client-styleguides",
   "description": "A collection of reusable styles for GetCommunity client projects.",
-  "version": "0.0.21",
+  "version": "0.0.23",
   "author": "@GetCommunity <ryan@getcommunity.com> (https://github.com/GetCommunity)",
   "contributors": [
     "Joey Grable <joey@getcommunity.com> (https://joeygrable.com)"
   ],
   "dependencies": {
-    "tailwindcss": "^4.0.0"
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
-    "@getcommunity/config-eslint": "^0.0.18",
-    "@getcommunity/config-prettier": "^0.0.12",
-    "@getcommunity/config-typescript": "^0.0.12",
-    "@tailwindcss/postcss": "^4.0.0",
+    "@getcommunity/config-eslint": "^0.0.20",
+    "@getcommunity/config-prettier": "^0.0.13",
+    "@getcommunity/config-typescript": "^0.0.13",
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^22.15.19",
     "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "solid-js": "^1.9.10",
     "tsup": "^8.5.1",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.48.1",
+    "typescript-eslint": "^8.53.0",
     "vite": "^7.1.11"
   },
   "exports": {
