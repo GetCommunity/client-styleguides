@@ -1,7 +1,7 @@
 {
   "name": "@getcommunity/client-styleguides",
   "description": "A collection of reusable styles for GetCommunity client projects.",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "author": "@GetCommunity <ryan@getcommunity.com> (https://github.com/GetCommunity)",
   "contributors": [
     "Joey Grable <joey@getcommunity.com> (https://joeygrable.com)"
