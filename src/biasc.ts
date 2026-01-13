@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
 
 const fontFamily = {
   "biasc-primary": ['"Proxima Nova"', "sans-serif"],
@@ -12,13 +12,13 @@ const colors = {
   "biasc-gold": "#CC9933"
 }
 
-const biascPlugin = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-}) as unknown as Config
+})
 
-export default biascPlugin
+export default pluginConfig

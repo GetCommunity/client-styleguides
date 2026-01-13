@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
 
 const fontFamily = {
   "sheahomes-primary": ["Gotham", "sans-serif"]
@@ -18,13 +18,13 @@ const colors = {
   "sheahomes-secondary-gray-light": "#D9E1E2"
 }
 
-const sheahomesPlugin = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-}) as unknown as Config
+})
 
-export default sheahomesPlugin
+export default pluginConfig

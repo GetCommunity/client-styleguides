@@ -1,5 +1,6 @@
-import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
+
 const fontFamily = {}
 
 const colors = {
@@ -58,13 +59,13 @@ const colors = {
   x: "#000000"
 }
 
-const socialPlugin = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-}) as unknown as Config
+})
 
-export default socialPlugin
+export default pluginConfig

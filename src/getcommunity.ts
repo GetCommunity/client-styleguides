@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
 
 const fontFamily = {
   "gc-primary": ['"Noto Sans"', "Helvetica", "Verdana", "sans-serif"]
@@ -17,13 +17,13 @@ const colors = {
   "getcommunity-brown-dark": "#725846"
 }
 
-const getcommunityPlugin = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-}) as unknown as Config
+})
 
-export default getcommunityPlugin
+export default pluginConfig

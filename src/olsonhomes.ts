@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
 
 const fontFamily = {
   "olsonhomes-primary": ['"Gotham"', "sans-serif"],
@@ -15,13 +15,13 @@ const colors = {
   "olsonhomes-secondary-teal": "#31B991"
 }
 
-const olsonhomesPlugin = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-}) as unknown as Config
+})
 
-export default olsonhomesPlugin
+export default pluginConfig

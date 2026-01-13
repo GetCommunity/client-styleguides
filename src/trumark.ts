@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
 
 const fontFamily = {
   "trumark-primary": ["Montserrat", "sans-serif"],
@@ -17,13 +17,13 @@ const colors = {
   "trumark-secondary-gray-dark": "#576670"
 }
 
-const trumarkPlugin = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-}) as unknown as Config
+})
 
-export default trumarkPlugin
+export default pluginConfig
