@@ -10,11 +10,13 @@
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.2",
     "@getcommunity/config-eslint": "^0.0.20",
     "@getcommunity/config-prettier": "^0.0.13",
     "@getcommunity/config-typescript": "^0.0.13",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^22.15.19",
+    "eslint": "^9.39.2",
     "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "solid-js": "^1.9.10",
@@ -24,14 +26,6 @@
     "vite": "^7.1.11"
   },
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "require": "./dist/index.cjs"
-    },
     "./*": {
       "types": "./dist/*.d.ts",
       "import": "./dist/*.js",
@@ -43,8 +37,8 @@
   ],
   "keywords": [],
   "license": "ISC",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "main": "./dist/getcommunity.cjs",
+  "module": "./dist/getcommunity.js",
   "private": false,
   "publishConfig": {
     "access": "public"

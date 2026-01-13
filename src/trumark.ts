@@ -1,5 +1,5 @@
-import plugin from "tailwindcss/plugin"
 import type { Config } from "tailwindcss"
+import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "trumark-primary": ["Montserrat", "sans-serif"],
