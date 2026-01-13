@@ -1,4 +1,5 @@
-import plugin from "tailwindcss/plugin.js"
+import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
 
 const fontFamily = {
   "vandaele-primary": ["Gotham", "sans-serif"]
@@ -15,7 +16,7 @@ const colors = {
   "vandaele-accent-gray-light": "#D1D1D4"
 }
 
-export default plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
@@ -23,3 +24,5 @@ export default plugin(function () {}, {
     }
   }
 })
+
+export default pluginConfig

@@ -1,4 +1,5 @@
-import plugin from "tailwindcss/plugin.js"
+import plugin from "tailwindcss/plugin"
+import type { Config } from "tailwindcss"
 
 const fontFamily = {
   "wpg-primary": ["Helvetica", "sans-serif"],
@@ -13,7 +14,7 @@ const colors = {
   "wpg-tan-light": "#D4CCC5"
 }
 
-export default plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
   theme: {
     extend: {
       colors,
@@ -21,3 +22,5 @@ export default plugin(function () {}, {
     }
   }
 })
+
+export default pluginConfig
