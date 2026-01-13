@@ -1,4 +1,5 @@
-import plugin from "tailwindcss/plugin.js"
+import type { Config } from "tailwindcss"
+import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "brandywine-primary": ['"Proxima Nova"', "san-serif"],
@@ -13,11 +14,13 @@ const colors = {
   "brandywine-primary-purple": "#571670"
 }
 
-export default plugin(function () {}, {
+const brandywinePlugin = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-})
+}) as unknown as Config
+
+export default brandywinePlugin

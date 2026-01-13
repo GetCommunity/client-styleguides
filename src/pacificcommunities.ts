@@ -1,4 +1,5 @@
-import plugin from "tailwindcss/plugin.js"
+import type { Config } from "tailwindcss"
+import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "pacificcommunities-primary": ["Roboto", "sans-serif"],
@@ -16,11 +17,13 @@ const colors = {
   "pacificcommunities-secondary-orange": "#FF9A32"
 }
 
-export default plugin(function () {}, {
+const pacificcommunitiesPlugin = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-})
+}) as unknown as Config
+
+export default pacificcommunitiesPlugin

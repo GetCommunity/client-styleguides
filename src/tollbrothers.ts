@@ -1,4 +1,5 @@
-import plugin from "tailwindcss/plugin.js"
+import type { Config } from "tailwindcss"
+import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "tollbrothers-primary": ['"DM Serif Display"', "serif"],
@@ -15,11 +16,13 @@ const colors = {
   "tollbrothers-accent-magenta": "#A31F34"
 }
 
-export default plugin(function () {}, {
+const tollbrothersPlugin = plugin(function () {}, {
   theme: {
     extend: {
       colors,
       fontFamily
     }
   }
-})
+}) as unknown as Config
+
+export default tollbrothersPlugin
