@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "@getcommunity/config-eslint": "^0.0.20",
-    "@getcommunity/config-prettier": "^0.0.13",
+    "@getcommunity/config-eslint": "^0.0.21",
+    "@getcommunity/config-prettier": "^0.0.14",
     "@getcommunity/config-typescript": "^0.0.13",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^22.15.19",
@@ -23,7 +23,7 @@
     "tsup": "^8.5.1",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.53.0",
-    "vite": "^7.1.11"
+    "vite": "^7.3.1"
   },
   "exports": {
     "./*": {
