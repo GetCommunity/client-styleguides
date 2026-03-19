@@ -7,22 +7,22 @@
     "Joey Grable <joey@getcommunity.com> (https://joeygrable.com)"
   ],
   "dependencies": {
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "@getcommunity/config-eslint": "^0.0.22",
-    "@getcommunity/config-prettier": "^0.0.15",
-    "@getcommunity/config-typescript": "^0.0.13",
-    "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "^22.15.19",
+    "@getcommunity/config-eslint": "^0.0.24",
+    "@getcommunity/config-prettier": "^0.0.16",
+    "@getcommunity/config-typescript": "^0.0.18",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^24.12.0",
     "eslint": "^9.39.2",
     "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "solid-js": "^1.9.10",
+    "solid-js": "^1.9.11",
     "tsup": "^8.5.1",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.53.0",
+    "typescript-eslint": "^8.57.1",
     "vite": "^7.3.1"
   },
   "exports": {
