@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@plugin "@getcommunity/client-styleguides/biasc";
+@plugin "@getcommunity/client-styleguides/brandywine";
+@plugin "@getcommunity/client-styleguides/getcommunity";
+@plugin "@getcommunity/client-styleguides/olsonhomes";
+@plugin "@getcommunity/client-styleguides/pacificcommunities";
+@plugin "@getcommunity/client-styleguides/sheahomes";
+@plugin "@getcommunity/client-styleguides/social-brands";
+@plugin "@getcommunity/client-styleguides/tollbrothers";
+@plugin "@getcommunity/client-styleguides/trumark";
+@plugin "@getcommunity/client-styleguides/vandaele";
+@plugin "@getcommunity/client-styleguides/wpg";
