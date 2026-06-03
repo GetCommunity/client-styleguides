@@ -3,6 +3,7 @@
   "extends": "@getcommunity/config-typescript/ts-lib.json",
   "include": ["./src/**/*", "eslint.config.mjs", "vite.config.ts", ".prettierrc.mjs"],
   "compilerOptions": {
+    "skipLibCheck": true,
     "sourceMap": false
   },
   "exclude": ["dist", "node_modules", "dev", "tailwind.config.ts"]
