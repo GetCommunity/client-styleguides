@@ -19,8 +19,8 @@ importers:
         specifier: ^0.1.5
         version: 0.1.5(prettier-plugin-organize-imports@4.3.0(prettier@3.8.3)(typescript@6.0.3))(prettier-plugin-tailwindcss@0.8.0(prettier-plugin-organize-imports@4.3.0(prettier@3.8.3)(typescript@6.0.3))(prettier@3.8.3))(prettier@3.8.3)
       '@getcommunity/config-typescript':
-        specifier: ^0.0.22
-        version: 0.0.22(@types/node@25.9.1)(typescript@6.0.3)
+        specifier: ^0.0.23
+        version: 0.0.23(@types/node@25.9.1)(typescript@6.0.3)
       '@tailwindcss/postcss':
         specifier: ^4.3.0
         version: 4.3.0
@@ -238,8 +238,8 @@ packages:
       prettier-plugin-organize-imports: ^4.3.0
       prettier-plugin-tailwindcss: ^0.8.0
 
-  '@getcommunity/config-typescript@0.0.22':
-    resolution: {integrity: sha512-4F7ta8ITGkSOu9Gh6P0OuS15REnBG/SYwxLAq2Ts+V8Z80AWqpPIeRoLOn/yd+Dl61fAapcPdxcNiSQn3Z1L/g==}
+  '@getcommunity/config-typescript@0.0.23':
+    resolution: {integrity: sha512-wRznXppS+Ufqwzoe2bl4347NC4fFSfnGWADitscz7vBxAE4YiJJfve8lGqelx1LJCVhuTQLr/YdrLwwopjvO8Q==}
     peerDependencies:
       '@types/node': ^24.12.0
       typescript: ^5.0.0
@@ -1546,7 +1546,7 @@ snapshots:
       prettier-plugin-organize-imports: 4.3.0(prettier@3.8.3)(typescript@6.0.3)
       prettier-plugin-tailwindcss: 0.8.0(prettier-plugin-organize-imports@4.3.0(prettier@3.8.3)(typescript@6.0.3))(prettier@3.8.3)
 
-  '@getcommunity/config-typescript@0.0.22(@types/node@25.9.1)(typescript@6.0.3)':
+  '@getcommunity/config-typescript@0.0.23(@types/node@25.9.1)(typescript@6.0.3)':
     dependencies:
       '@types/node': 25.9.1
       typescript: 6.0.3
