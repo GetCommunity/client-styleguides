@@ -3,16 +3,14 @@ import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "olsonhomes-primary": ['"Gotham"', "sans-serif"],
-  "olsonhomes-secondary": ["Gladiola", "serif"]
+  "olsonhomes-secondary": ["PT Serif", "serif"]
 }
 
 const colors = {
-  "olsonhomes-primary-blue": "#00558F",
-  "olsonhomes-primary-gray": "#424243",
-  "olsonhomes-secondary-orange": "#F8961F",
-  "olsonhomes-secondary-blue-sky": "#60CCE5",
-  "olsonhomes-secondary-blue-dark": "#05314A",
-  "olsonhomes-secondary-teal": "#31B991"
+  "olsonhomes-dark-blue": "#3d5a7c",
+  "olsonhomes-teal": "#0093a5",
+  "olsonhomes-dark-grey": "#58595b",
+  "olsonhomes-light-grey": "#e1e1e1"
 }
 
 const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
