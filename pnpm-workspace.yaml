@@ -4,3 +4,4 @@ minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
   - "@getcommunity/config-prettier"
   - "@getcommunity/config-typescript"
+  - '@solidjs/vite-plugin@3.0.0-next.42'
