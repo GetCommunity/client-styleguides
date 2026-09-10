@@ -1,36 +1,10 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "compilerOptions": {
-    "strict": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": false,
-    "resolveJsonModule": true,
-    "target": "ESNext",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "jsx": "preserve",
-    "jsxImportSource": "@solidjs/web",
-    "lib": [
-      "ESNext",
-    ],
-    "newLine": "LF",
-    "allowJs": false,
-    "skipLibCheck": true,
-    "sourceMap": false,
-    "types": [
-      "@types/node",
-    ],
-    "paths": {
-      "@/*": [
-        "./*"
-      ],
-      "~/*": [
-        "./src/*"
-      ],
-    }
-  },
+  "extends": "@getcommunity/config-typescript/ts-lib.json",
   "include": ["./src/**/*", "eslint.config.mjs", "vite.config.ts", ".prettierrc.mjs"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "sourceMap": false
+  },
   "exclude": ["dist", "node_modules", "dev", "tailwind.config.ts"]
 }

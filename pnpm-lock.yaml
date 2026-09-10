@@ -19,8 +19,8 @@ importers:
         specifier: ^0.1.6
         version: 0.1.6(typescript@6.0.3)
       '@getcommunity/config-typescript':
-        specifier: ^0.0.25
-        version: 0.0.25(@types/node@26.1.1)(typescript@6.0.3)
+        specifier: ^0.0.26-next.0
+        version: 0.0.26-next.0(@types/node@26.1.1)(typescript@6.0.3)
       '@solidjs/vite-plugin':
         specifier: 3.0.0-next.42
         version: 3.0.0-next.42(@solidjs/web@2.0.0-rc.7(solid-js@2.0.0-rc.7))(solid-js@2.0.0-rc.7)(vite@8.1.5(@types/node@26.1.1)(jiti@2.7.0))
@@ -218,8 +218,8 @@ packages:
   '@getcommunity/config-prettier@0.1.6':
     resolution: {integrity: sha512-r+3EIYc/6iUJj5Tah6e3/wJ2oOC0MATN/iYrpz5wfUfgeW//BDSsRtPYm3DcAo/nIwnt4St7QhuqpkHDxfP61Q==}
 
-  '@getcommunity/config-typescript@0.0.25':
-    resolution: {integrity: sha512-LN5PeDj6g75OX2e0m+/xPi+I3dH3TnfMcTWSihHowEgmmcN3OqzImQutfH+1vgs2u6d1d6dVG695YsaOR6YIyA==}
+  '@getcommunity/config-typescript@0.0.26-next.0':
+    resolution: {integrity: sha512-a5lvv6LS2NfezEGRDJd2vqjChdGRmzlcCq6GzYqObJOUXcfMA0VhEYyKMThoH6NstY1PxXWjaThBn7M0MFm3ZQ==}
     peerDependencies:
       '@types/node': '>=24 <=26'
       typescript: '>=5 <6'
@@ -1868,7 +1868,7 @@ snapshots:
       - typescript
       - vue-tsc
 
-  '@getcommunity/config-typescript@0.0.25(@types/node@26.1.1)(typescript@6.0.3)':
+  '@getcommunity/config-typescript@0.0.26-next.0(@types/node@26.1.1)(typescript@6.0.3)':
     dependencies:
       '@types/node': 26.1.1
       typescript: 6.0.3
