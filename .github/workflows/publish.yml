@@ -44,11 +44,12 @@ jobs:
           npm version patch -m "chore(release): v%s"
           git stash pop || true
 
+      - name: Publish to npm
+        run: npm publish --access public
+
       - name: Push version commit & tag
         uses: ad-m/github-push-action@881a6320fdb16eb5318c5054f31c218aec2b324c
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: production
-
-      - name: Publish to npm
-        run: npm publish --access public
+          tags: true
