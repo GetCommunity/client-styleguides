@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@getcommunity/config-prettier": "^0.1.7",
-    "@getcommunity/config-typescript": "^0.0.26",
+    "@getcommunity/config-prettier": "^0.1.8",
+    "@getcommunity/config-typescript": "^0.0.27",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.1.1",
     "eslint": "^10.7.0",
