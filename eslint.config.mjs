@@ -15,6 +15,6 @@ export default defineConfig(
     }
   },
   {
-    ignores: [".prettierrc.mjs", "*.config.*"]
+    ignores: ["prettier.config.js", "*.config.*"]
   }
 )
