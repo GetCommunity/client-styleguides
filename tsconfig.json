@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@getcommunity/config-typescript/ts-lib.json",
-  "include": ["./src/**/*", "eslint.config.mjs", "vite.config.ts", ".prettierrc.mjs"],
+  "extends": "./tsconfig.lib.json",
+  "include": ["./src/**/*", "eslint.config.mjs", "vite.config.ts", "prettier.config.js", "tsconfig.lib.json", "tsconfig.base.json"],
   "compilerOptions": {
     "skipLibCheck": true,
     "sourceMap": false
