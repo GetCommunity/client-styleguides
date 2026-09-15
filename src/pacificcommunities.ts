@@ -3,7 +3,7 @@ import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "pacificcommunities-primary": ["Roboto", "sans-serif"],
-  "pacificcommunities-secondary": ['"IBM Plex Serif"', "serif"]
+  "pacificcommunities-secondary": ['"IBM Plex Serif"', "serif"],
 }
 
 const colors = {
@@ -14,16 +14,16 @@ const colors = {
   "pacificcommunities-secondary-green": "#C1CD59",
   "pacificcommunities-secondary-magenta": "#A12543",
   "pacificcommunities-secondary-red": "#6E120B",
-  "pacificcommunities-secondary-orange": "#FF9A32"
+  "pacificcommunities-secondary-orange": "#FF9A32",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
-  "sheahomes-primary": ["Gotham", "sans-serif"]
+  "sheahomes-primary": ["Gotham", "sans-serif"],
 }
 
 const colors = {
@@ -15,16 +15,16 @@ const colors = {
   "sheahomes-secondary-olive": "#92ACA0",
   "sheahomes-secondary-yellow": "#FFB81C",
   "sheahomes-secondary-orange": "#FF9A32",
-  "sheahomes-secondary-gray-light": "#D9E1E2"
+  "sheahomes-secondary-gray-light": "#D9E1E2",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
-  "vandaele-primary": ["Gotham", "sans-serif"]
+  "vandaele-primary": ["Gotham", "sans-serif"],
 }
 
 const colors = {
@@ -13,16 +13,16 @@ const colors = {
   "vandaele-accent-green-light": "#E3E8C7",
   "vandaele-accent-gray-dark": "#6B737D",
   "vandaele-accent-gray-mid": "#9EA3A6",
-  "vandaele-accent-gray-light": "#D1D1D4"
+  "vandaele-accent-gray-light": "#D1D1D4",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

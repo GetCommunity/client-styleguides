@@ -7,5 +7,5 @@ export default defineConfig({
   sourcemap: false,
   clean: true,
   treeshake: true,
-  target: false
+  target: false,
 })

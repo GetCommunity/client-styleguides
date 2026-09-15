@@ -3,7 +3,7 @@ import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "brandywine-primary": ['"Proxima Nova"', "san-serif"],
-  "brandywine-secondary": ["Oswald", "serif"]
+  "brandywine-secondary": ["Oswald", "serif"],
 }
 
 const colors = {
@@ -11,16 +11,16 @@ const colors = {
   "brandywine-primary-green": "#BAD40F",
   "brandywine-primary-orange": "#F6A81C",
   "brandywine-primary-skyblue": "#2CB0C8",
-  "brandywine-primary-purple": "#571670"
+  "brandywine-primary-purple": "#571670",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

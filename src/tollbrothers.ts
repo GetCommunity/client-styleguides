@@ -3,7 +3,7 @@ import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "tollbrothers-primary": ['"DM Serif Display"', "serif"],
-  "tollbrothers-secondary": ["Gotham", "sans-serif"]
+  "tollbrothers-secondary": ["Gotham", "sans-serif"],
 }
 
 const colors = {
@@ -13,16 +13,16 @@ const colors = {
   "tollbrothers-primary-blue-light": "#004876",
   "tollbrothers-accent-blue": "#0070CC",
   "tollbrothers-accent-tan": "#696056",
-  "tollbrothers-accent-magenta": "#A31F34"
+  "tollbrothers-accent-magenta": "#A31F34",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

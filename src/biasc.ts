@@ -3,22 +3,22 @@ import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "biasc-primary": ['"Proxima Nova"', "sans-serif"],
-  "biasc-secondary": ["Oswald", "serif"]
+  "biasc-secondary": ["Oswald", "serif"],
 }
 
 const colors = {
   "biasc-blue": "#07506E",
   "biasc-gray": "#7F7F7F",
-  "biasc-gold": "#CC9933"
+  "biasc-gold": "#CC9933",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig
