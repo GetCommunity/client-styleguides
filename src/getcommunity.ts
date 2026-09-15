@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss"
 import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
-  "gc-primary": ['"Noto Sans"', "Helvetica", "Verdana", "sans-serif"]
+  "gc-primary": ['"Noto Sans"', "Helvetica", "Verdana", "sans-serif"],
 }
 
 const colors = {
@@ -14,16 +14,16 @@ const colors = {
   "getcommunity-blue-light": "#ABDBD8",
   "getcommunity-blue-dark": "#28829E",
   "getcommunity-brown-light": "#C7B088",
-  "getcommunity-brown-dark": "#725846"
+  "getcommunity-brown-dark": "#725846",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

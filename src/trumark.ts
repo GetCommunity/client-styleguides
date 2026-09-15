@@ -3,7 +3,7 @@ import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "trumark-primary": ["Montserrat", "sans-serif"],
-  "trumark-secondary": ["Raleway", "sans-serif"]
+  "trumark-secondary": ["Raleway", "sans-serif"],
 }
 
 const colors = {
@@ -14,16 +14,16 @@ const colors = {
   "trumark-secondary-gray-blue": "#557B85",
   "trumark-secondary-cream": "#EFEFF0",
   "trumark-secondary-yellow": "#E5C91A",
-  "trumark-secondary-gray-dark": "#576670"
+  "trumark-secondary-gray-dark": "#576670",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

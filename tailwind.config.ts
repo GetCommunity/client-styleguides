@@ -13,7 +13,7 @@ import ClientStyleguideWpg from "@getcommunity/client-styleguides/wpg"
 export default {
   content: ["./dev/*.html", "./dev/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {}
+    extend: {},
   },
   plugins: [
     ClientStyleguideBiasc,
@@ -26,6 +26,6 @@ export default {
     ClientStyleguideTollbrothers,
     ClientStyleguideTrumark,
     ClientStyleguideVandaele,
-    ClientStyleguideWpg
-  ]
+    ClientStyleguideWpg,
+  ],
 }

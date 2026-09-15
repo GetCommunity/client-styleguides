@@ -56,16 +56,16 @@ const colors = {
   whatsapp: "#075e54",
   wikipedia: "#000000",
   youtube: "#ff0000",
-  x: "#000000"
+  x: "#000000",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig

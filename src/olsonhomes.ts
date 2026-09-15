@@ -3,23 +3,23 @@ import plugin from "tailwindcss/plugin"
 
 const fontFamily = {
   "olsonhomes-primary": ['"Gotham"', "sans-serif"],
-  "olsonhomes-secondary": ["PT Serif", "serif"]
+  "olsonhomes-secondary": ["PT Serif", "serif"],
 }
 
 const colors = {
   "olsonhomes-dark-blue": "#3d5a7c",
   "olsonhomes-teal": "#0093a5",
   "olsonhomes-dark-grey": "#58595b",
-  "olsonhomes-light-grey": "#e1e1e1"
+  "olsonhomes-light-grey": "#e1e1e1",
 }
 
-const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(function () {}, {
+const pluginConfig: NonNullable<Config["plugins"]>[number] = plugin(() => {}, {
   theme: {
     extend: {
       colors,
-      fontFamily
-    }
-  }
+      fontFamily,
+    },
+  },
 })
 
 export default pluginConfig
